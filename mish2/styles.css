@@ -2,3 +2,130 @@
  color: rgba(253, 110, 10, 1);
 
 }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+h3{
+font-weight: 800px;
+font-size: 45px;
+}
+.open-sans{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+ nav ul {
+
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+   
+ }
+ nav ul li a{
+    margin-right: 50px;
+ }
+
+ .underline{
+    text-decoration: none;
+ }
+
+ .btn-primary{
+    background-color: rgba(253, 110, 10, 1);
+    border: none;
+    color: white;   
+    font-weight: bold;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+ }
+ .banner{
+   display: flex;
+   justify-content: space-between;
+   margin:0px 35px 0px 215px ;
+ }
+
+ .header{
+   background-image: url('../images/developer.png'), url('../images/header_bg.png');
+   background-repeat: no-repeat;
+   background-position: top left, bottom right;`
+ }
+ nav{
+   margin-left: 215px;
+ }
+ .banner-profile-pic{
+   width: 584px;
+   height: 676px;
+ }
+
+ .secondary-bg{
+
+  background-color: rgba(255, 248, 243, 1);
+ }
+ .section-title{
+  font-size: 35px;
+  font-weight: bold;
+ }
+ .section-description{
+  font-size: 18px;
+ }
+ .About{
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+ }
+ .main{
+  max-width: 1140px;
+  margin: 0 auto;
+ }
+ .item-description{
+font-weight: bold;
+ }
+.abou-items{
+display: flex;
+justify-content: space-between;
+}
+.section-titles{
+  font-size: 18px;
+  padding: 0px 150px;
+}
+.skills{
+  display: flex;
+}
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-column{
+  width: 50%;
+}
+footer input[type="text"]footer input[type="email"]footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+
+.section-title{
+
+  text-align: center;
+}
+
+
